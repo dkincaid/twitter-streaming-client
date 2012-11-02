@@ -7,7 +7,9 @@ Building
 ------------
 This project uses Maven as its build tool. In order to build the client the easiest thing to do is
 to run
+
     mvn assembly:assembly
+
 This will build an uber jar with all the dependencies in the `target` directory.
 
 Setup
@@ -19,7 +21,9 @@ library, so see the [configuration page](http://twitter4j.org/en/configuration.h
 Usage
 ---------
 Launch the client using the command
+
     java -jar twitter-client-0.1-with-dependencies.jar <search string> <directory>
+
 it will launch the client and return tweets that match the search string. It will put JSON formatted
 strings into files in the given directory. The client currently just saves the id, created_at and
 text of the tweets.
