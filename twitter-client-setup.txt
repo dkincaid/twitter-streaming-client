@@ -1,0 +1,21 @@
+;; This buffer is for notes you don't want to save, and for Lisp evaluation.
+;; If you want to create a file, visit that file with C-x C-f,
+;; then enter the text in that file's own buffer.
+
+ami-3c994355 (Ubuntu 12.04, 64-bit, instance store)
+m1.small
+us-east-1
+
+1) Add Oracle Java
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java7-installer
+
+2) Install s3cmd and configure
+sudo apt-get install s3cmd
+s3cmd --configure
+
+3) Activate byobu on login
+Add to .profile: _byobu_sourced=1 . /usr/bin/byobu-launch
+
+4) 
