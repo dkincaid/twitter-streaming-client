@@ -14,7 +14,7 @@ import java.io.IOException;
  * Make sure that you have a twitter4j.properties file in the same directory or the classpath
  * with your Twitter OAuth credentials.
  */
-public class TwitterClient {
+public class TwitterStreamingClient {
     private static String[] filter = new String[] { "alabama", "roll tide"};
     private static String outputPath = "/tmp/tweets";
 
