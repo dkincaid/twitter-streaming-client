@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.idexx</groupId>
-    <artifactId>twitter-client</artifactId>
+    <artifactId>twitter-streaming-client</artifactId>
     <version>0.1</version>
     <packaging>jar</packaging>
 
@@ -70,7 +70,7 @@
                 </descriptorRefs>
                 <archive>
                     <manifest>
-                        <mainClass>com.idexx.twitter.TwitterClient</mainClass>
+                        <mainClass>com.idexx.twitter.TwitterStreamingClient</mainClass>
                     </manifest>
                 </archive>
             </configuration>
